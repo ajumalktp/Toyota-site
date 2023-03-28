@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-content{
+    width: 96%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-content-text{
+    width: 29%;
+    height: 100%;
+}
+.navbar-content-text h2{
+    font-size: 52px;
+    line-height: 56px;
+    color: #101010;
+    font-family: 'ToyotaBold';
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.navbar-content-img{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-content-img img{
+    width: 130px;
+}
+.mainbody{
+    width: 100%;
+    height: 460px;
+}
+.mainbody img{
+    width: 100%;
+    height: 455px;
+}
+.footer{
+    width: 100%;
+    height: 1000px;
+    background-color: #ff0a1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    width: 97%;
+    height: 93%;
+}
+.footer-content h1{
+    color: #fff;
+    font-family: 'ToyotaBold';
+    line-height: 1.2;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+.footer-content p{
+    font-size: 23px;
+    line-height: normal;
+    display: block;
+    font-family: 'ToyotaBook';
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+#option{
+    width: 500px;
+    height: 67px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #ff0a1e;
+    font-size: 20px;
+    border: 1px #fff solid;
+}
+#input-name{
+    margin-left: 30px;
+    width: 990px;
+    height: 60px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff0a1e;
+    border: 1px #fff solid;
+}
+.form-lastinputs input{
+    width: 1525px;
+    height: 60px;
+    margin-top: 30px;
+    color:#fff ;
+    background-color: #ff0a1e;
+    border: 1px #fff solid;
+}
+.form-button{
+    margin-top: 30px;
+    width: 200px;
+    height: 75px;
+    border: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.last-content p{
+    font-size: 18px;
+    margin-top: 30px; 
+}
+::placeholder{
+    color: #fff;
+    font-size: 25px;
+}
